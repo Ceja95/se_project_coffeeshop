@@ -9,14 +9,24 @@
 
 .menu__title {
     max-width: 780px;
-    margin: 0 0 24px;
+    margin: 0 auto 24px;
     text-align: center;
+    font-family: "Inter"; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 44px; 
+    line-height: 52px;
 }
 
 .menu__subtitle {
     max-width: 780px;
     text-align: center;
-    margin: 0 0 100px;
+    margin: 0 auto 100px;
+    font-family: "Noto Serif"; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 20px; 
+    line-height: 30px;
 }
 
 .menu__cards {
@@ -35,6 +45,12 @@
 
 .card__title {
     margin: 0 0 32px;
+    font-family: "Inter"; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 20px; 
+    line-height: 30px;
+
 }
 
 .card__list {
@@ -44,6 +60,12 @@
 .card__list-item {
     margin: 0 0 16px;
     display: flex;
+    font-family: "Noto Serif"; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-size: 16px; 
+    line-height: 20px;
+
 }
 
 .card__list-divider {
