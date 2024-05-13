@@ -44,7 +44,9 @@
 }
 
 .recipes__videos_caption {
-    margin-top: 24px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
     color: #ffffff;
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
