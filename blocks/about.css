@@ -38,11 +38,15 @@
 .about__paragraph {
     margin: 20px 0 0;
     max-width: 660px;
-    font-family: "Noto Serif" 'Times New Roman', serif;
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+}
+
+.about__paragraph:first-child {
+    margin-top: 0;
 }
 
 .about__circle {
