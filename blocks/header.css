@@ -17,6 +17,7 @@
     width: 646px;
     height: 568px;
     position: absolute;
+    z-index: 1;
     right: 5px;
     top: 124px;
 }
@@ -30,6 +31,8 @@
     font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.6px;
+    position: relative;
+    z-index: 2;
 }
 
 .header__span-accent {
@@ -50,6 +53,8 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+    position: relative;
+    z-index: 2;
 }
 
 .header__footer {
@@ -62,7 +67,9 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #838383
+    color: #838383;
+    position: relative;
+    z-index: 2;
 }
 
 .header__list {
@@ -74,4 +81,6 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    position: relative;
+    z-index: 2;
 }
